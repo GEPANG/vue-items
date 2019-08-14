@@ -1,0 +1,14 @@
+1、进入文件目录
+2、git add .
+3、git commit -m "这里是描述"
+4、git push -u origin master
+
+
+
+
+一、配置SSH
+	1> ssh-keygen -t rsa -C "邮箱"
+	在c盘===》当前用户目录--（administrator）===》.ssh目录（隐藏文件）《有这个目录》
+
+	2>生成.ssh后
+	id_rsa.pub==》代码需要复制到github设置ssh的key中
